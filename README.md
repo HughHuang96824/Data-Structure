@@ -8,7 +8,7 @@ The descriptions of the assignments are in the pdf files
 check_brackets.cpp; 
 tree-height.cpp; 
 process_packages.cpp; 
-stack_with_max_naive.cp
+stack_with_max_naive.cpp
 
 2.pdf:
 build_heap.cpp; 
