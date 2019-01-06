@@ -1,7 +1,24 @@
 # Data-Structure
-Data structure assignments
 
-These programs are assignments for Data Structures.
+Topic: 
+Arrays and Linked Lists //
+Stacks and Queues //
+Trees //
+Dynamic Arrays and Amortized Analysis //
+Priority Queues //
+Priority Queues: Heaps //
+Priority Queues: Heap Sort //
+Disjoint Sets and Implementations //
+Direct Addressing and Chaining //
+Hash Functions and Implementations//
+Searching Patterns //
+Distributed Hash Tables //
+Binary Search Trees //
+AVL Trees and Implementation //
+Splay Trees and Implementation //
+
+
+The following programs are assignments for Data Structures.
 The descriptions of the assignments are in the pdf files
 
 1.pdf:
