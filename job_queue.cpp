@@ -81,58 +81,7 @@ class JobQueue {
             SiftDown(next_free_time, workers, 0);
         }
     }
-    
-//    bool TakeJob(vector<std::pair<long long, int>> vec, int index1, int index2) {
-//        return (vec[index1].first < vec[index2].first ||
-//                (vec[index1].first == vec[index2].first && vec[index1].second < vec[index2].second));
-//    }
-//
-//    int SiftDown(vector<std::pair<long long, int>> &vec, int index){
-//        int left = (index<<1) + 1;
-//        int right = (index<<1) + 2;
-//
-//        if (left >= vec.size())
-//            return 0;
-//
-//        if (right >= vec.size())
-//        {
-//            if (TakeJob(vec, left, index))
-//                std::swap(vec[left], vec[index]);
-//
-//            return 0;
-//        }
-//        else
-//        {
-//            int min = TakeJob(vec, left, right)? left:right;
-//
-//            if (TakeJob(vec, min, index)) {
-//                std::swap(vec[min], vec[index]);
-//                return SiftDown(vec, min);
-//            }
-//            else return 0;
-//        }
-//
-//    }
-//
-//    void AssignJobs() {
-//        assigned_workers_.resize(jobs_.size());
-//        start_times_.resize(jobs_.size());
-//        vector<std::pair<long long, int>> next_free_time;
-//        next_free_time.reserve(num_workers_);
-//        for (int i = 0; i < num_workers_; i++)
-//        {
-//            std::pair <long long, int> worker;
-//            worker = std::make_pair(0, i);
-//            next_free_time.push_back(worker);
-//        }
-//
-//        for (int i = 0; i < jobs_.size(); i++) {
-//            assigned_workers_[i] = next_free_time[0].second;
-//            start_times_[i] = next_free_time[0].first;
-//            next_free_time[0].first += jobs_[i];
-//            SiftDown(next_free_time, 0);
-//            }
-//    }
+
 
  public:
   void Solve() {
